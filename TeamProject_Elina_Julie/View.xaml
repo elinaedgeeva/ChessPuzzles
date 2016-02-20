@@ -4,8 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TeamProject_Elina_Julie"
+        xmlns:user="clr-namespace:TeamProject_Elina_Julie"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+   Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <user:ViewModel/>
+    </Window.DataContext>   
+        
+        
     <Grid>
         <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="194,121,0,0" VerticalAlignment="Top"/>
 
