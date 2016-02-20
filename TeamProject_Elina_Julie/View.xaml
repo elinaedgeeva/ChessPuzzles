@@ -13,7 +13,7 @@
         
         
     <Grid>
-        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="194,121,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox" Content="Аминь" HorizontalAlignment="Left" Margin="194,121,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
