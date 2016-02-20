@@ -7,7 +7,8 @@ using GalaSoft.MvvmLight;
 
 namespace TeamProject_Elina_Julie
 {
-    class Model 
+   public class Model 
     {
+        public string Al { get; set; }
     }
 }
