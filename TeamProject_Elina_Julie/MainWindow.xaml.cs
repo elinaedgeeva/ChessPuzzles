@@ -23,6 +23,7 @@ namespace TeamProject_Elina_Julie
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
