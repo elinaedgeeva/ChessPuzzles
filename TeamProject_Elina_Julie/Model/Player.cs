@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GalaSoft.MvvmLight;
 
-namespace TeamProject_Elina_Julie
+namespace TeamProject_Elina_Julie.Model
 {
-   public class Model 
+    public enum Player
     {
-        public string Al { get; set; }
+        White,
+        Black
     }
 }
