@@ -6,14 +6,17 @@
         xmlns:local="clr-namespace:TeamProject_Elina_Julie"
         xmlns:user="clr-namespace:TeamProject_Elina_Julie"
         mc:Ignorable="d"
-   Title="MainWindow" Height="350" Width="525">
+   Title="MainMenu" Height="350" Width="525">
     <Window.DataContext>
         <user:ChessPiece/>
-    </Window.DataContext>   
-        
-        
-    <Grid>
-        <CheckBox x:Name="checkBox" Content="Аминь" HorizontalAlignment="Left" Margin="194,121,0,0" VerticalAlignment="Top"/>
+    </Window.DataContext>
 
-    </Grid>
+    <Window.Resources>
+        <!--<DataTemplate DataType="{x:Type local:BoardSampleViewModel}">
+            <local:BoardSample />
+        </DataTemplate>-->
+        
+    </Window.Resources>
+
+    <Grid/>
 </Window>
